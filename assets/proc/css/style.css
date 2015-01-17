@@ -1,0 +1,54 @@
+body {
+	font-family: Verdana, Arial, Helvetica, Futura, sans-serif;
+	font-size: 1em;
+	padding:0;
+	margin:0;
+}
+
+#appHeader{
+/*	background-image: url('../img/header.png');
+	background-repeat: no-repeat;
+	background-position: left;*/
+}
+
+#welcome{
+    font-family : "Tahoma";
+    font-size   : 28px !important;
+    text-align  : center;
+    margin-top  : 50px;
+    text-shadow : 1px 1px 1px #FFFFFF;
+    color       : #006BA4;
+    background-repeat   : no-repeat;
+    background-position : center;
+    height: 300px;   
+}
+
+/*
+ * Icon Block
+ */
+.icon-home { background-image: url(../img/home.png) !important; }
+.icon-logout { background-image: url(../img/logout.png) !important; }
+.icon-username { background-image: url(../img/username.png) !important; }
+.icon-menu { background-image: url(../img/menu.png) !important; }
+.icon-menu2 { background-image: url(../img/menu2.png) !important; }
+.icon-header { background-image: url(../img/header.png) !important; }
+.icon-pencil { background-image: url(../img/pencil.png) !important; }
+.icon-clock { background-image: url(../img/clock.png) !important; }
+.icon-calendar { background-image: url(../img/calendar.png) !important; }
+.icon-password { background-image: url(../img/password.png) !important; }
+.icon-gear { background-image: url(../img/gear.png) !important; }
+.icon-user { background-image: url(../img/user.png) !important; }
+.icon-save { background-image: url(../img/save.png) !important; }
+.icon-edit { background-image: url(../img/edit.png) !important; }
+.icon-delete { background-image: url(../img/delete.png) !important; }
+.icon-refresh { background-image: url(../img/refresh.png) !important; }
+.icon-excel { background-image: url(../img/excel.png) !important; }
+.icon-form { background-image: url(../img/form.png) !important; }
+.icon-grid { background-image: url(../img/grid.png) !important; }
+.icon-role { background-image: url(../img/role.png) !important; }
+.icon-setting { background-image: url(../img/setting.png) !important; }
+.icon-semester { background-image: url(../img/semester.png) !important; }
+.icon-rm { background-image: url(../img/drive_add.png) !important; }
+.icon-catroom { background-image: url(../img/door.png) !important; }
+.icon-room { background-image: url(../img/layout.png) !important; }
+.icon-order_room { background-image: url(../img/order_room.png) !important; }
